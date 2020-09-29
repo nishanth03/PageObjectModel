@@ -22,8 +22,10 @@
       </class> <!-- com.freecrm.qa.testcases.WomensPageTest -->
       <class name="com.freecrm.qa.testcases.LoginPageTest">
         <methods>
+          <include name="loginLogoTest"/>
           <include name="setUp"/>
           <include name="login"/>
+          <include name="loginPageTitleTest"/>
           <include name="teaDown"/>
         </methods>
       </class> <!-- com.freecrm.qa.testcases.LoginPageTest -->

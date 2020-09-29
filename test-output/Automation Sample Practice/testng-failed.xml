@@ -6,28 +6,20 @@
   </listeners>
   <test thread-count="5" name="Automation Test(failed)">
     <classes>
-      <class name="com.freecrm.qa.testcases.WomensPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="womensPageTitleTest"/>
-        </methods>
-      </class> <!-- com.freecrm.qa.testcases.WomensPageTest -->
       <class name="com.freecrm.qa.testcases.HomePageTest">
         <methods>
           <include name="addNewAddress"/>
           <include name="setUp"/>
           <include name="AccountNameLabelTest"/>
+          <include name="homePageTitleTest"/>
           <include name="tearDown"/>
           <include name="clickOnWomensLink"/>
         </methods>
       </class> <!-- com.freecrm.qa.testcases.HomePageTest -->
       <class name="com.freecrm.qa.testcases.LoginPageTest">
         <methods>
-          <include name="loginLogoTest"/>
           <include name="setUp"/>
           <include name="login"/>
-          <include name="loginPageTitleTest"/>
           <include name="teaDown"/>
         </methods>
       </class> <!-- com.freecrm.qa.testcases.LoginPageTest -->
