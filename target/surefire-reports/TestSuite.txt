@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 3, Errors: 0, Skipped: 19, Time elapsed: 301.176 s <<< FAILURE! - in TestSuite
+setUp(com.freecrm.qa.testcases.HomePageTest)  Time elapsed: 27.17 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NISHANTH', ip: '192.168.18.25', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.8'
+Driver info: driver.version: ChromeDriver
+	at com.freecrm.qa.testcases.HomePageTest.setUp(HomePageTest.java:30)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:18237/status] to be available after 20005 ms
+	at com.freecrm.qa.testcases.HomePageTest.setUp(HomePageTest.java:30)
+Caused by: java.util.concurrent.TimeoutException
+	at com.freecrm.qa.testcases.HomePageTest.setUp(HomePageTest.java:30)
+
+login(com.freecrm.qa.testcases.LoginPageTest)  Time elapsed: 2.903 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NISHANTH', ip: '192.168.18.25', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\a\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:58084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d828881b1865f92981bc16e485af5dee
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at com.freecrm.qa.testcases.LoginPageTest.login(LoginPageTest.java:48)
+
+setUp(com.freecrm.qa.testcases.WomensPageTest)  Time elapsed: 23.765 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NISHANTH', ip: '192.168.18.25', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\a\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:58162}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0cf3dd3d6dfd8e8de0286d8d0b09b3b5
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at com.freecrm.qa.testcases.WomensPageTest.setUp(WomensPageTest.java:29)
+

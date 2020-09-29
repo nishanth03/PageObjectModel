@@ -1,0 +1,10 @@
+com\freecrm\qa\pages\WomensPage.class
+com\freecrm\qa\pages\LoginPage.class
+com\freecrm\qa\pages\SignUpPage.class
+com\freecrm\qa\pages\DressesPage.class
+com\freecrm\qa\util\WebEventListener.class
+com\freecrm\qa\pages\TShirtsPage.class
+com\freecrm\qa\testbase\TestBase.class
+com\freecrm\qa\ExtentReportListener\ExtentReporterNG.class
+com\freecrm\qa\pages\HomePage.class
+com\freecrm\qa\util\TestUtil.class
