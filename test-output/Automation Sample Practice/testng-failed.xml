@@ -18,11 +18,19 @@
       </class> <!-- com.freecrm.qa.testcases.HomePageTest -->
       <class name="com.freecrm.qa.testcases.LoginPageTest">
         <methods>
+          <include name="loginLogoTest"/>
           <include name="setUp"/>
           <include name="login"/>
           <include name="teaDown"/>
         </methods>
       </class> <!-- com.freecrm.qa.testcases.LoginPageTest -->
+      <class name="com.freecrm.qa.testcases.WomensPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="womensPageTitleTest"/>
+        </methods>
+      </class> <!-- com.freecrm.qa.testcases.WomensPageTest -->
     </classes>
   </test> <!-- Automation Test(failed) -->
 </suite> <!-- Failed suite [Automation Sample Practice] -->

@@ -3,6 +3,20 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="com.freecrm.qa.testcases.WomensPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="womensPageTitleTest"/>
+        </methods>
+      </class> <!-- com.freecrm.qa.testcases.WomensPageTest -->
+      <class name="com.freecrm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="login"/>
+          <include name="teaDown"/>
+        </methods>
+      </class> <!-- com.freecrm.qa.testcases.LoginPageTest -->
       <class name="com.freecrm.qa.testcases.HomePageTest">
         <methods>
           <include name="addNewAddress"/>
@@ -13,22 +27,6 @@
           <include name="clickOnWomensLink"/>
         </methods>
       </class> <!-- com.freecrm.qa.testcases.HomePageTest -->
-      <class name="com.freecrm.qa.testcases.WomensPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="womensPageTitleTest"/>
-        </methods>
-      </class> <!-- com.freecrm.qa.testcases.WomensPageTest -->
-      <class name="com.freecrm.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="loginLogoTest"/>
-          <include name="setUp"/>
-          <include name="login"/>
-          <include name="loginPageTitleTest"/>
-          <include name="teaDown"/>
-        </methods>
-      </class> <!-- com.freecrm.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
